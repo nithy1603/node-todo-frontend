@@ -1,4 +1,4 @@
-FROM node
+FROM docker.intuit.com/docker-rmt/node
 
 RUN apt-get update && apt-get upgrade -y \
     && apt-get clean
